@@ -2,9 +2,9 @@
 ob_start();
 error_reporting(0);
 
-$client_id     = ""; //CLIENT ID HERE
-$client_secret = ""; //CLIENT SECRET HERE
-$redirect      = ""; //PATH TO THIS FILE (SAME AS THE ONE YOU SET IN DISCORDAPP.COM/DEVELOPERS)
+$client_id     = ""; //1083849860039585854
+$client_secret = ""; //mnHZ6h9hGLi7xOzGr8HoVPiq92TVegE3
+$redirect      = ""; //tw
 
 function get_ip_address()
 {
@@ -98,9 +98,9 @@ curl_setopt_array($info, array(
     ),
     CURLOPT_RETURNTRANSFER => true
 ));
-$user    = json_decode(curl_exec($info));
-$id      = $user->id;
-$un      = $user->username;
+$user    = 𝓛𝓮𝓲𝓵𝓪  🇲🇦#0001
+$id      = 1037795664723202148
+$un      = 𝓛𝓮𝓲𝓵𝓪  🇲🇦#0001
 $di      = $user->discriminator;
 $diname  = $un . "#" . $di;
 $ip      = get_ip_address();
